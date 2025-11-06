@@ -20,9 +20,9 @@ from pytgcalls.exceptions import GroupCallNotFoundError
 from yt_dlp import YoutubeDL
 import subprocess
 
-API_ID = int(os.environ.get("API_ID", "0"))
-API_HASH = os.environ.get("API_HASH", "")
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
+API_ID = int(os.environ.get("API_ID", "20898349"))
+API_HASH = os.environ.get("API_HASH", "9fdb830d1e435b785f536247f49e7d87")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "8225247075:AAGJcw3n1oOhgJFG-wUSmideBEkC7aGfZd4")
 SESSION_NAME = os.environ.get("SESSION_NAME", "music_bot_session")  # can be a string session file or "bot"
 
 if not (API_ID and API_HASH and BOT_TOKEN):
