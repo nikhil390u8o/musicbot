@@ -1,0 +1,8 @@
+# File: requirements.txt
+pyrogram>=2.0
+tgcrypto
+pytgcalls==2.4.0
+yt-dlp
+pydub
+python-dotenv
+aiohttp
