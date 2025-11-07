@@ -1,8 +1,6 @@
-# File: requirements.txt
-pyrogram>=2.0
+pyrogram==2.0.106
 tgcrypto
-pytgcalls==2.4.0
+pytgcalls==3.0.0.dev24
+youtube-search-python
 yt-dlp
-pydub
-python-dotenv
-aiohttp
+ffmpeg-python
